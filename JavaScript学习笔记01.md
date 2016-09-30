@@ -11,6 +11,7 @@ console.log(Object.prototype.toString.call(string));  // [object String]
 
 ```
 #### 内部属性
+
 > 所有typeof返回值为`"object"`的对象都包含了一个内部属性，可以通过`Object.prototype.toString(..)`查看。
 ``` javascript
 console.log(Object.prototype.toString.call([1,2,3]))  // [object Array]
